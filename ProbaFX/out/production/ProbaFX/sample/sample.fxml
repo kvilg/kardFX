@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="399.0" prefWidth="782.0" style="-fx-background-color: #2E8B57;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="20.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0" fx:id="xT">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/туз-черви.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="40.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0" fx:id="xK">
+         <graphic>
+            <ImageView fx:id="kX" disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/кароль-черви.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="60.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0" fx:id="xD">
+         <graphic>
+            <ImageView fx:id="dX" disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/дама-черви.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="80.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0" fx:id="xB">
+         <graphic>
+            <ImageView fx:id="bX" disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/волет-черви.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="100.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0" fx:id="x0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/10-черви.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="120.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0" fx:id="x9">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/9-черви.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="140.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0" fx:id="x8">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/8-черви.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="160.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0" fx:id="x7">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/7-черви.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="180.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0" fx:id="x6">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/6-черви.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="bT" layoutX="200.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/туз-бубны_06.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="bK" layoutX="220.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/K-бубны_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="bD" layoutX="240.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/D-бубны_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="bB" layoutX="260.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/B-бубны_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="b0" layoutX="280.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/10-бубны_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="b9" layoutX="300.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/9-бубны_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="b8" layoutX="320.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/8-бубны_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="b7" layoutX="340.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/7-бубны_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="b6" layoutX="360.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/6-бубны_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="pT" layoutX="380.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/Т-пики_06.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="pK" layoutX="400.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/К-пики_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="pD" layoutX="420.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/Д-пики_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="pB" layoutX="440.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/В-пики_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="p0" layoutX="460.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/10-пики_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="p9" layoutX="480.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/9-пики_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="p8" layoutX="500.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/8-пики_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="p7" layoutX="520.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/7-пики_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="p6" layoutX="540.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/6-пики_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="kT" layoutX="560.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/Т-крести_06.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="kK" layoutX="580.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/k-крести_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="kD" layoutX="600.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/Д-крести_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="kB" layoutX="620.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/В-крести_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="k0" layoutX="640.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/10-крести_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="k9" layoutX="660.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/9-крести_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="k8" layoutX="680.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/8-крести_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="k7" layoutX="700.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/7-крести_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="k6" layoutX="720.0" layoutY="14.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="53.0">
+         <graphic>
+            <ImageView disable="true" fitHeight="77.0" fitWidth="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/6-крести_07.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="start" layoutX="18.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="132.0" text="передать данные" />
+      <Label layoutX="60.0" layoutY="117.0" prefHeight="32.0" prefWidth="114.0" text="карты в колоде" textFill="WHITE" />
+      
+      <Label layoutX="60.0" layoutY="235.0" text="карты на слоле" textFill="WHITE" />
+      <Label fx:id="stId" layoutX="420.0" layoutY="235.0" prefHeight="17.0" prefWidth="204.0" text="всего было сделано ходов" textFill="WHITE" />
+   </children>
+</AnchorPane>
